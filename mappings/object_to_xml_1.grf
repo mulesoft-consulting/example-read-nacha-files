@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?><Graph author="matiasjuan" created="Thu Feb 27 23:28:29 ART 2014" description="object To XML" guiVersion="3.4.3.P" id="1393609736642" licenseCode="Unlicensed" licenseType="Unknown" modified="Thu Feb 27 23:28:29 ART 2014" modifiedBy="matiasjuan" name="object_To_XML" revision="1.0" showComponentDetails="false">
+<Global>
+<Metadata __index="37" __referenceCounter="1" __sourcePath="{}/object/batches/entryRecs/addendaRecs" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="07b4a989-20af-4c52-8be8-7d0412b1e99d" _parent_id="__parent_id" _type="Input" id="23431679-4072-4a30-9653-231703f07c0d">
+<Record fieldDelimiter="," name="addendaRecs" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="48" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaSeqNbr" containerType="SINGLE" label="addendaSeqNbr" name="addendaSeqNbr" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="37" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="40" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaTypeCode" containerType="SINGLE" label="addendaTypeCode" name="addendaTypeCode" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="46" __sourcePath="{}/object/batches/entryRecs/addendaRecs/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="42" __sourcePath="{}/object/batches/entryRecs/addendaRecs/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="45" __sourcePath="{}/object/batches/entryRecs/addendaRecs/entryDetailSeqNbr" containerType="SINGLE" label="entryDetailSeqNbr" name="entryDetailSeqNbr" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="39" __sourcePath="{}/object/batches/entryRecs/addendaRecs/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="47" __sourcePath="{}/object/batches/entryRecs/addendaRecs/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="41" __sourcePath="{}/object/batches/entryRecs/addendaRecs/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="44" __sourcePath="{}/object/batches/entryRecs/addendaRecs/paymentRelatedInfo" containerType="SINGLE" label="paymentRelatedInfo" name="paymentRelatedInfo" type="string"/>
+<Field __implementationClass="java.lang.String" __index="43" __sourcePath="{}/object/batches/entryRecs/addendaRecs/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="38" __sourcePath="{}/object/batches/entryRecs/addendaRecs/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="93" __referenceCounter="1" __sourcePath="{}/object/batches/entryRecs/addendaRecs" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="78c87931-fce8-4079-8c87-0a4188dd6a26" _parent_id="__parent_id" _type="Output" id="2cf274eb-38f6-4394-9693-dd1509413ba6">
+<Record fieldDelimiter="," name="addendaRecs" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="93" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaSeqNbr" containerType="SINGLE" label="addendaSeqNbr" name="addendaSeqNbr" type="string"/>
+<Field __index="94" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __index="95" __sourcePath="{}/object/batches/entryRecs/addendaRecs/addendaTypeCode" containerType="SINGLE" label="addendaTypeCode" name="addendaTypeCode" type="string"/>
+<Field __index="96" __sourcePath="{}/object/batches/entryRecs/addendaRecs/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __index="97" __sourcePath="{}/object/batches/entryRecs/addendaRecs/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __index="98" __sourcePath="{}/object/batches/entryRecs/addendaRecs/entryDetailSeqNbr" containerType="SINGLE" label="entryDetailSeqNbr" name="entryDetailSeqNbr" type="string"/>
+<Field __index="99" __sourcePath="{}/object/batches/entryRecs/addendaRecs/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __index="100" __sourcePath="{}/object/batches/entryRecs/addendaRecs/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __index="101" __sourcePath="{}/object/batches/entryRecs/addendaRecs/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __index="102" __sourcePath="{}/object/batches/entryRecs/addendaRecs/paymentRelatedInfo" containerType="SINGLE" label="paymentRelatedInfo" name="paymentRelatedInfo" type="string"/>
+<Field __index="103" __sourcePath="{}/object/batches/entryRecs/addendaRecs/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __index="104" __sourcePath="{}/object/batches/entryRecs/addendaRecs/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="37" __referenceCounter="1" __sourcePath="{}/object/batches" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="f700f599-17d7-483a-b184-f2580bc71be0" _parent_id="__parent_id" _type="Input" id="62f13048-9815-48d2-977b-3dd953ea6aa0">
+<Record fieldDelimiter="," name="batches" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="74" __sourcePath="{}/object/batches/batchControl/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="80" __sourcePath="{}/object/batches/batchControl/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="68" __sourcePath="{}/object/batches/batchControl/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="77" __sourcePath="{}/object/batches/batchControl/batchNumber" containerType="SINGLE" label="batchNumber" name="batchNumber" type="string"/>
+<Field __implementationClass="java.lang.String" __index="83" __sourcePath="{}/object/batches/batchControl/companyId" containerType="SINGLE" label="companyId" name="companyId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="72" __sourcePath="{}/object/batches/batchControl/entryAddendaCount" containerType="SINGLE" label="entryAddendaCount" name="entryAddendaCount" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="67" __sourcePath="{}/object/batches/batchControl/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="81" __sourcePath="{}/object/batches/batchControl/entryHash" containerType="SINGLE" label="entryHash" name="entryHash" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="84" __sourcePath="{}/object/batches/batchControl/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="69" __sourcePath="{}/object/batches/batchControl/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="71" __sourcePath="{}/object/batches/batchControl/messageAuthCode" containerType="SINGLE" label="messageAuthCode" name="messageAuthCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="78" __sourcePath="{}/object/batches/batchControl/originatingDfiId" containerType="SINGLE" label="originatingDfiId" name="originatingDfiId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="76" __sourcePath="{}/object/batches/batchControl/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="73" __sourcePath="{}/object/batches/batchControl/reserved" containerType="SINGLE" label="reserved" name="reserved" type="string"/>
+<Field __implementationClass="java.lang.String" __index="70" __sourcePath="{}/object/batches/batchControl/serviceClassCode" containerType="SINGLE" label="serviceClassCode" name="serviceClassCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="79" __sourcePath="{}/object/batches/batchControl/totCreditDollarAmt" containerType="SINGLE" label="totCreditDollarAmt" name="totCreditDollarAmt" type="string"/>
+<Field __implementationClass="java.lang.String" __index="82" __sourcePath="{}/object/batches/batchControl/totDebitDollarAmt" containerType="SINGLE" label="totDebitDollarAmt" name="totDebitDollarAmt" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="75" __sourcePath="{}/object/batches/batchControl/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="94" __sourcePath="{}/object/batches/batchHeader/addendaType" containerType="SINGLE" label="addendaType" name="addendaType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="99" __sourcePath="{}/object/batches/batchHeader/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="87" __sourcePath="{}/object/batches/batchHeader/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="97" __sourcePath="{}/object/batches/batchHeader/batchNumber" containerType="SINGLE" label="batchNumber" name="batchNumber_1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="100" __sourcePath="{}/object/batches/batchHeader/companyDescriptiveDate" containerType="SINGLE" label="companyDescriptiveDate" name="companyDescriptiveDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="89" __sourcePath="{}/object/batches/batchHeader/companyDiscretionaryData" containerType="SINGLE" label="companyDiscretionaryData" name="companyDiscretionaryData" type="string"/>
+<Field __implementationClass="java.lang.String" __index="101" __sourcePath="{}/object/batches/batchHeader/companyEntryDescription" containerType="SINGLE" label="companyEntryDescription" name="companyEntryDescription" type="string"/>
+<Field __implementationClass="java.lang.String" __index="102" __sourcePath="{}/object/batches/batchHeader/companyId" containerType="SINGLE" label="companyId" name="companyId_1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="90" __sourcePath="{}/object/batches/batchHeader/companyName" containerType="SINGLE" label="companyName" name="companyName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="91" __sourcePath="{}/object/batches/batchHeader/effectiveEntryDate" containerType="SINGLE" label="effectiveEntryDate" name="effectiveEntryDate" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="85" __sourcePath="{}/object/batches/batchHeader/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="104" __sourcePath="{}/object/batches/batchHeader/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="86" __sourcePath="{}/object/batches/batchHeader/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="92" __sourcePath="{}/object/batches/batchHeader/originationDfiId" containerType="SINGLE" label="originationDfiId" name="originationDfiId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="103" __sourcePath="{}/object/batches/batchHeader/originatorStatusCode" containerType="SINGLE" label="originatorStatusCode" name="originatorStatusCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="96" __sourcePath="{}/object/batches/batchHeader/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode_1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="88" __sourcePath="{}/object/batches/batchHeader/serviceClassCode" containerType="SINGLE" label="serviceClassCode" name="serviceClassCode_1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="93" __sourcePath="{}/object/batches/batchHeader/settlementDate" containerType="SINGLE" label="settlementDate" name="settlementDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="98" __sourcePath="{}/object/batches/batchHeader/standardEntryClassCode" containerType="SINGLE" label="standardEntryClassCode" name="standardEntryClassCode" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="95" __sourcePath="{}/object/batches/batchHeader/validType" containerType="SINGLE" label="validType" name="validType_1" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="37" __referenceCounter="1" __sourcePath="{}/object/batches" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="f2f664d2-8196-4086-8e01-d6d6a032a7b7" _parent_id="__parent_id" _type="Output" id="5776d6b1-7431-4864-aa7f-7fecd60ed21f">
+<Record fieldDelimiter="," name="batches" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="37" __sourcePath="{}/object/batches/batchControl/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __index="38" __sourcePath="{}/object/batches/batchControl/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __index="39" __sourcePath="{}/object/batches/batchControl/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __index="40" __sourcePath="{}/object/batches/batchControl/batchNumber" containerType="SINGLE" label="batchNumber" name="batchNumber" type="string"/>
+<Field __index="41" __sourcePath="{}/object/batches/batchControl/companyId" containerType="SINGLE" label="companyId" name="companyId" type="string"/>
+<Field __index="42" __sourcePath="{}/object/batches/batchControl/entryAddendaCount" containerType="SINGLE" label="entryAddendaCount" name="entryAddendaCount" type="string"/>
+<Field __index="43" __sourcePath="{}/object/batches/batchControl/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __index="44" __sourcePath="{}/object/batches/batchControl/entryHash" containerType="SINGLE" label="entryHash" name="entryHash" type="string"/>
+<Field __index="45" __sourcePath="{}/object/batches/batchControl/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __index="46" __sourcePath="{}/object/batches/batchControl/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __index="47" __sourcePath="{}/object/batches/batchControl/messageAuthCode" containerType="SINGLE" label="messageAuthCode" name="messageAuthCode" type="string"/>
+<Field __index="48" __sourcePath="{}/object/batches/batchControl/originatingDfiId" containerType="SINGLE" label="originatingDfiId" name="originatingDfiId" type="string"/>
+<Field __index="49" __sourcePath="{}/object/batches/batchControl/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __index="50" __sourcePath="{}/object/batches/batchControl/reserved" containerType="SINGLE" label="reserved" name="reserved" type="string"/>
+<Field __index="51" __sourcePath="{}/object/batches/batchControl/serviceClassCode" containerType="SINGLE" label="serviceClassCode" name="serviceClassCode" type="string"/>
+<Field __index="52" __sourcePath="{}/object/batches/batchControl/totCreditDollarAmt" containerType="SINGLE" label="totCreditDollarAmt" name="totCreditDollarAmt" type="string"/>
+<Field __index="53" __sourcePath="{}/object/batches/batchControl/totDebitDollarAmt" containerType="SINGLE" label="totDebitDollarAmt" name="totDebitDollarAmt" type="string"/>
+<Field __index="54" __sourcePath="{}/object/batches/batchControl/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+<Field __index="55" __sourcePath="{}/object/batches/batchHeader/addendaType" containerType="SINGLE" label="addendaType" name="addendaType_1" type="boolean"/>
+<Field __index="56" __sourcePath="{}/object/batches/batchHeader/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType_1" type="boolean"/>
+<Field __index="57" __sourcePath="{}/object/batches/batchHeader/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType_1" type="boolean"/>
+<Field __index="58" __sourcePath="{}/object/batches/batchHeader/batchNumber" containerType="SINGLE" label="batchNumber" name="batchNumber_1" type="string"/>
+<Field __index="59" __sourcePath="{}/object/batches/batchHeader/companyDescriptiveDate" containerType="SINGLE" label="companyDescriptiveDate" name="companyDescriptiveDate" type="string"/>
+<Field __index="60" __sourcePath="{}/object/batches/batchHeader/companyDiscretionaryData" containerType="SINGLE" label="companyDiscretionaryData" name="companyDiscretionaryData" type="string"/>
+<Field __index="61" __sourcePath="{}/object/batches/batchHeader/companyEntryDescription" containerType="SINGLE" label="companyEntryDescription" name="companyEntryDescription" type="string"/>
+<Field __index="62" __sourcePath="{}/object/batches/batchHeader/companyId" containerType="SINGLE" label="companyId" name="companyId_1" type="string"/>
+<Field __index="63" __sourcePath="{}/object/batches/batchHeader/companyName" containerType="SINGLE" label="companyName" name="companyName" type="string"/>
+<Field __index="64" __sourcePath="{}/object/batches/batchHeader/effectiveEntryDate" containerType="SINGLE" label="effectiveEntryDate" name="effectiveEntryDate" type="string"/>
+<Field __index="65" __sourcePath="{}/object/batches/batchHeader/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType_1" type="boolean"/>
+<Field __index="66" __sourcePath="{}/object/batches/batchHeader/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType_1" type="boolean"/>
+<Field __index="67" __sourcePath="{}/object/batches/batchHeader/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType_1" type="boolean"/>
+<Field __index="68" __sourcePath="{}/object/batches/batchHeader/originationDfiId" containerType="SINGLE" label="originationDfiId" name="originationDfiId" type="string"/>
+<Field __index="69" __sourcePath="{}/object/batches/batchHeader/originatorStatusCode" containerType="SINGLE" label="originatorStatusCode" name="originatorStatusCode" type="string"/>
+<Field __index="70" __sourcePath="{}/object/batches/batchHeader/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode_1" type="string"/>
+<Field __index="71" __sourcePath="{}/object/batches/batchHeader/serviceClassCode" containerType="SINGLE" label="serviceClassCode" name="serviceClassCode_1" type="string"/>
+<Field __index="72" __sourcePath="{}/object/batches/batchHeader/settlementDate" containerType="SINGLE" label="settlementDate" name="settlementDate" type="string"/>
+<Field __index="73" __sourcePath="{}/object/batches/batchHeader/standardEntryClassCode" containerType="SINGLE" label="standardEntryClassCode" name="standardEntryClassCode" type="string"/>
+<Field __index="74" __sourcePath="{}/object/batches/batchHeader/validType" containerType="SINGLE" label="validType" name="validType_1" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="37" __referenceCounter="1" __sourcePath="{}/object/batches/entryRecs" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="62f13048-9815-48d2-977b-3dd953ea6aa0" _parent_id="__parent_id" _type="Input" id="07b4a989-20af-4c52-8be8-7d0412b1e99d">
+<Record fieldDelimiter="," name="entryRecs" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __implementationClass="java.lang.String" __index="58" __sourcePath="{}/object/batches/entryRecs/entryDetail/addendaRecordInd" containerType="SINGLE" label="addendaRecordInd" name="addendaRecordInd" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="60" __sourcePath="{}/object/batches/entryRecs/entryDetail/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="59" __sourcePath="{}/object/batches/entryRecs/entryDetail/amount" containerType="SINGLE" label="amount" name="amount" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="64" __sourcePath="{}/object/batches/entryRecs/entryDetail/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="53" __sourcePath="{}/object/batches/entryRecs/entryDetail/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="56" __sourcePath="{}/object/batches/entryRecs/entryDetail/checkDigit" containerType="SINGLE" label="checkDigit" name="checkDigit" type="string"/>
+<Field __implementationClass="java.lang.String" __index="66" __sourcePath="{}/object/batches/entryRecs/entryDetail/dfiAcctNbr" containerType="SINGLE" label="dfiAcctNbr" name="dfiAcctNbr" type="string"/>
+<Field __implementationClass="java.lang.String" __index="50" __sourcePath="{}/object/batches/entryRecs/entryDetail/discretionaryData" containerType="SINGLE" label="discretionaryData" name="discretionaryData" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="52" __sourcePath="{}/object/batches/entryRecs/entryDetail/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="65" __sourcePath="{}/object/batches/entryRecs/entryDetail/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="54" __sourcePath="{}/object/batches/entryRecs/entryDetail/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="51" __sourcePath="{}/object/batches/entryRecs/entryDetail/individualIdNbr" containerType="SINGLE" label="individualIdNbr" name="individualIdNbr" type="string"/>
+<Field __implementationClass="java.lang.String" __index="57" __sourcePath="{}/object/batches/entryRecs/entryDetail/individualName" containerType="SINGLE" label="individualName" name="individualName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="49" __sourcePath="{}/object/batches/entryRecs/entryDetail/receivingDfiId" containerType="SINGLE" label="receivingDfiId" name="receivingDfiId" type="string"/>
+<Field __implementationClass="java.lang.String" __index="63" __sourcePath="{}/object/batches/entryRecs/entryDetail/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="62" __sourcePath="{}/object/batches/entryRecs/entryDetail/traceNumber" containerType="SINGLE" label="traceNumber" name="traceNumber" type="string"/>
+<Field __implementationClass="java.lang.String" __index="55" __sourcePath="{}/object/batches/entryRecs/entryDetail/transactionCode" containerType="SINGLE" label="transactionCode" name="transactionCode" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="61" __sourcePath="{}/object/batches/entryRecs/entryDetail/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="75" __referenceCounter="1" __sourcePath="{}/object/batches/entryRecs" _dataStructure="SINGLE_DIMENSIONAL_COLLECTION" _id="__id" _metadataParentId="5776d6b1-7431-4864-aa7f-7fecd60ed21f" _parent_id="__parent_id" _type="Output" id="78c87931-fce8-4079-8c87-0a4188dd6a26">
+<Record fieldDelimiter="," name="entryRecs" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_parent_id" __systemManaged="true" name="__parent_id" type="string"/>
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="75" __sourcePath="{}/object/batches/entryRecs/entryDetail/addendaRecordInd" containerType="SINGLE" label="addendaRecordInd" name="addendaRecordInd" type="string"/>
+<Field __index="76" __sourcePath="{}/object/batches/entryRecs/entryDetail/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __index="77" __sourcePath="{}/object/batches/entryRecs/entryDetail/amount" containerType="SINGLE" label="amount" name="amount" type="string"/>
+<Field __index="78" __sourcePath="{}/object/batches/entryRecs/entryDetail/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __index="79" __sourcePath="{}/object/batches/entryRecs/entryDetail/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __index="80" __sourcePath="{}/object/batches/entryRecs/entryDetail/checkDigit" containerType="SINGLE" label="checkDigit" name="checkDigit" type="string"/>
+<Field __index="81" __sourcePath="{}/object/batches/entryRecs/entryDetail/dfiAcctNbr" containerType="SINGLE" label="dfiAcctNbr" name="dfiAcctNbr" type="string"/>
+<Field __index="82" __sourcePath="{}/object/batches/entryRecs/entryDetail/discretionaryData" containerType="SINGLE" label="discretionaryData" name="discretionaryData" type="string"/>
+<Field __index="83" __sourcePath="{}/object/batches/entryRecs/entryDetail/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __index="84" __sourcePath="{}/object/batches/entryRecs/entryDetail/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __index="85" __sourcePath="{}/object/batches/entryRecs/entryDetail/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __index="86" __sourcePath="{}/object/batches/entryRecs/entryDetail/individualIdNbr" containerType="SINGLE" label="individualIdNbr" name="individualIdNbr" type="string"/>
+<Field __index="87" __sourcePath="{}/object/batches/entryRecs/entryDetail/individualName" containerType="SINGLE" label="individualName" name="individualName" type="string"/>
+<Field __index="88" __sourcePath="{}/object/batches/entryRecs/entryDetail/receivingDfiId" containerType="SINGLE" label="receivingDfiId" name="receivingDfiId" type="string"/>
+<Field __index="89" __sourcePath="{}/object/batches/entryRecs/entryDetail/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __index="90" __sourcePath="{}/object/batches/entryRecs/entryDetail/traceNumber" containerType="SINGLE" label="traceNumber" name="traceNumber" type="string"/>
+<Field __index="91" __sourcePath="{}/object/batches/entryRecs/entryDetail/transactionCode" containerType="SINGLE" label="transactionCode" name="transactionCode" type="string"/>
+<Field __index="92" __sourcePath="{}/object/batches/entryRecs/entryDetail/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/object" _dataStructure="OBJECT" _id="__id" _type="Input" id="f700f599-17d7-483a-b184-f2580bc71be0">
+<Record fieldDelimiter="," name="object" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="1" __sourcePath="{}/object/errorMessages" containerType="list" label="errorMessages" name="errorMessages" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="0" __sourcePath="{}/object/fedFile" containerType="SINGLE" label="fedFile" name="fedFile" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="28" __sourcePath="{}/object/fileControl/addendaType" containerType="SINGLE" label="addendaType" name="addendaType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="32" __sourcePath="{}/object/fileControl/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="36" __sourcePath="{}/object/fileControl/batchCount" containerType="SINGLE" label="batchCount" name="batchCount" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="24" __sourcePath="{}/object/fileControl/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="22" __sourcePath="{}/object/fileControl/blockCount" containerType="SINGLE" label="blockCount" name="blockCount" type="string"/>
+<Field __implementationClass="java.lang.String" __index="26" __sourcePath="{}/object/fileControl/entryAddendaCount" containerType="SINGLE" label="entryAddendaCount" name="entryAddendaCount" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="23" __sourcePath="{}/object/fileControl/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="33" __sourcePath="{}/object/fileControl/entryHash" containerType="SINGLE" label="entryHash" name="entryHash" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="35" __sourcePath="{}/object/fileControl/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="25" __sourcePath="{}/object/fileControl/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType_1" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="30" __sourcePath="{}/object/fileControl/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode_1" type="string"/>
+<Field __implementationClass="java.lang.String" __index="27" __sourcePath="{}/object/fileControl/reserved" containerType="SINGLE" label="reserved" name="reserved" type="string"/>
+<Field __implementationClass="java.lang.String" __index="31" __sourcePath="{}/object/fileControl/totCreditDollarAmt" containerType="SINGLE" label="totCreditDollarAmt" name="totCreditDollarAmt" type="string"/>
+<Field __implementationClass="java.lang.String" __index="34" __sourcePath="{}/object/fileControl/totDebitDollarAmt" containerType="SINGLE" label="totDebitDollarAmt" name="totDebitDollarAmt" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="29" __sourcePath="{}/object/fileControl/validType" containerType="SINGLE" label="validType" name="validType_1" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="13" __sourcePath="{}/object/fileHeader/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="17" __sourcePath="{}/object/fileHeader/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="7" __sourcePath="{}/object/fileHeader/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="12" __sourcePath="{}/object/fileHeader/blockingFactor" containerType="SINGLE" label="blockingFactor" name="blockingFactor" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="5" __sourcePath="{}/object/fileHeader/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __implementationClass="java.lang.Boolean" __index="18" __sourcePath="{}/object/fileHeader/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="16" __sourcePath="{}/object/fileHeader/fileCreationDate" containerType="SINGLE" label="fileCreationDate" name="fileCreationDate" type="string"/>
+<Field __implementationClass="java.lang.String" __index="11" __sourcePath="{}/object/fileHeader/fileCreationTime" containerType="SINGLE" label="fileCreationTime" name="fileCreationTime" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="8" __sourcePath="{}/object/fileHeader/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __implementationClass="java.lang.String" __index="10" __sourcePath="{}/object/fileHeader/fileIdModifier" containerType="SINGLE" label="fileIdModifier" name="fileIdModifier" type="string"/>
+<Field __implementationClass="java.lang.String" __index="20" __sourcePath="{}/object/fileHeader/formatCode" containerType="SINGLE" label="formatCode" name="formatCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="19" __sourcePath="{}/object/fileHeader/immediateDestination" containerType="SINGLE" label="immediateDestination" name="immediateDestination" type="string"/>
+<Field __implementationClass="java.lang.String" __index="21" __sourcePath="{}/object/fileHeader/immediateDestinationName" containerType="SINGLE" label="immediateDestinationName" name="immediateDestinationName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="3" __sourcePath="{}/object/fileHeader/immediateOrigin" containerType="SINGLE" label="immediateOrigin" name="immediateOrigin" type="string"/>
+<Field __implementationClass="java.lang.String" __index="4" __sourcePath="{}/object/fileHeader/immediateOriginName" containerType="SINGLE" label="immediateOriginName" name="immediateOriginName" type="string"/>
+<Field __implementationClass="java.lang.String" __index="2" __sourcePath="{}/object/fileHeader/priorityCode" containerType="SINGLE" label="priorityCode" name="priorityCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="9" __sourcePath="{}/object/fileHeader/recordSize" containerType="SINGLE" label="recordSize" name="recordSize" type="string"/>
+<Field __implementationClass="java.lang.String" __index="15" __sourcePath="{}/object/fileHeader/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __implementationClass="java.lang.String" __index="6" __sourcePath="{}/object/fileHeader/referenceCode" containerType="SINGLE" label="referenceCode" name="referenceCode" type="string"/>
+<Field __implementationClass="java.lang.Boolean" __index="14" __sourcePath="{}/object/fileHeader/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+</Record>
+</Metadata>
+<Metadata __index="0" __referenceCounter="1" __sourcePath="{}/object" _dataStructure="OBJECT" _id="__id" _type="Output" id="f2f664d2-8196-4086-8e01-d6d6a032a7b7">
+<Record fieldDelimiter="," name="object" recordDelimiter="\n\\|\r\n\\|\r" type="delimited">
+<Field __artificialType="_id" __systemManaged="true" name="__id" type="string"/>
+<Field __index="0" __sourcePath="{}/object/errorMessages" containerType="list" label="errorMessages" name="errorMessages" type="string"/>
+<Field __index="1" __sourcePath="{}/object/fedFile" containerType="SINGLE" label="fedFile" name="fedFile" type="boolean"/>
+<Field __index="2" __sourcePath="{}/object/fileControl/addendaType" containerType="SINGLE" label="addendaType" name="addendaType" type="boolean"/>
+<Field __index="3" __sourcePath="{}/object/fileControl/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType" type="boolean"/>
+<Field __index="4" __sourcePath="{}/object/fileControl/batchCount" containerType="SINGLE" label="batchCount" name="batchCount" type="string"/>
+<Field __index="5" __sourcePath="{}/object/fileControl/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType" type="boolean"/>
+<Field __index="6" __sourcePath="{}/object/fileControl/blockCount" containerType="SINGLE" label="blockCount" name="blockCount" type="string"/>
+<Field __index="7" __sourcePath="{}/object/fileControl/entryAddendaCount" containerType="SINGLE" label="entryAddendaCount" name="entryAddendaCount" type="string"/>
+<Field __index="8" __sourcePath="{}/object/fileControl/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType" type="boolean"/>
+<Field __index="9" __sourcePath="{}/object/fileControl/entryHash" containerType="SINGLE" label="entryHash" name="entryHash" type="string"/>
+<Field __index="10" __sourcePath="{}/object/fileControl/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType" type="boolean"/>
+<Field __index="11" __sourcePath="{}/object/fileControl/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType" type="boolean"/>
+<Field __index="12" __sourcePath="{}/object/fileControl/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode" type="string"/>
+<Field __index="13" __sourcePath="{}/object/fileControl/reserved" containerType="SINGLE" label="reserved" name="reserved" type="string"/>
+<Field __index="14" __sourcePath="{}/object/fileControl/totCreditDollarAmt" containerType="SINGLE" label="totCreditDollarAmt" name="totCreditDollarAmt" type="string"/>
+<Field __index="15" __sourcePath="{}/object/fileControl/totDebitDollarAmt" containerType="SINGLE" label="totDebitDollarAmt" name="totDebitDollarAmt" type="string"/>
+<Field __index="16" __sourcePath="{}/object/fileControl/validType" containerType="SINGLE" label="validType" name="validType" type="boolean"/>
+<Field __index="17" __sourcePath="{}/object/fileHeader/addendaType" containerType="SINGLE" label="addendaType" name="addendaType_1" type="boolean"/>
+<Field __index="18" __sourcePath="{}/object/fileHeader/batchControlType" containerType="SINGLE" label="batchControlType" name="batchControlType_1" type="boolean"/>
+<Field __index="19" __sourcePath="{}/object/fileHeader/batchHeaderType" containerType="SINGLE" label="batchHeaderType" name="batchHeaderType_1" type="boolean"/>
+<Field __index="20" __sourcePath="{}/object/fileHeader/blockingFactor" containerType="SINGLE" label="blockingFactor" name="blockingFactor" type="string"/>
+<Field __index="21" __sourcePath="{}/object/fileHeader/entryDetailType" containerType="SINGLE" label="entryDetailType" name="entryDetailType_1" type="boolean"/>
+<Field __index="22" __sourcePath="{}/object/fileHeader/fileControlType" containerType="SINGLE" label="fileControlType" name="fileControlType_1" type="boolean"/>
+<Field __index="23" __sourcePath="{}/object/fileHeader/fileCreationDate" containerType="SINGLE" label="fileCreationDate" name="fileCreationDate" type="string"/>
+<Field __index="24" __sourcePath="{}/object/fileHeader/fileCreationTime" containerType="SINGLE" label="fileCreationTime" name="fileCreationTime" type="string"/>
+<Field __index="25" __sourcePath="{}/object/fileHeader/fileHeaderType" containerType="SINGLE" label="fileHeaderType" name="fileHeaderType_1" type="boolean"/>
+<Field __index="26" __sourcePath="{}/object/fileHeader/fileIdModifier" containerType="SINGLE" label="fileIdModifier" name="fileIdModifier" type="string"/>
+<Field __index="27" __sourcePath="{}/object/fileHeader/formatCode" containerType="SINGLE" label="formatCode" name="formatCode" type="string"/>
+<Field __index="28" __sourcePath="{}/object/fileHeader/immediateDestination" containerType="SINGLE" label="immediateDestination" name="immediateDestination" type="string"/>
+<Field __index="29" __sourcePath="{}/object/fileHeader/immediateDestinationName" containerType="SINGLE" label="immediateDestinationName" name="immediateDestinationName" type="string"/>
+<Field __index="30" __sourcePath="{}/object/fileHeader/immediateOrigin" containerType="SINGLE" label="immediateOrigin" name="immediateOrigin" type="string"/>
+<Field __index="31" __sourcePath="{}/object/fileHeader/immediateOriginName" containerType="SINGLE" label="immediateOriginName" name="immediateOriginName" type="string"/>
+<Field __index="32" __sourcePath="{}/object/fileHeader/priorityCode" containerType="SINGLE" label="priorityCode" name="priorityCode" type="string"/>
+<Field __index="33" __sourcePath="{}/object/fileHeader/recordSize" containerType="SINGLE" label="recordSize" name="recordSize" type="string"/>
+<Field __index="34" __sourcePath="{}/object/fileHeader/recordTypeCode" containerType="SINGLE" label="recordTypeCode" name="recordTypeCode_1" type="string"/>
+<Field __index="35" __sourcePath="{}/object/fileHeader/referenceCode" containerType="SINGLE" label="referenceCode" name="referenceCode" type="string"/>
+<Field __index="36" __sourcePath="{}/object/fileHeader/validType" containerType="SINGLE" label="validType" name="validType_1" type="boolean"/>
+</Record>
+</Metadata>
+<Dictionary>
+<Entry id="DictionaryEntry0" input="true" name="inputPayload" output="false" type="object"/>
+<Entry id="DictionaryEntry1" input="false" name="outputPayload" output="true" type="object"/>
+</Dictionary>
+</Global>
+<Phase number="0">
+<Node enabled="enabled" fileURL="dict:inputPayload" guiName="Map&lt;k,v&gt; READER" guiX="20" guiY="20" id="BEAN_READER0" type="BEAN_READER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context outPort="0" sequenceField="__id" xpath=".">
+  <Mapping cloverField="errorMessages" trim="true" xpath="errorMessages"/>
+  <Mapping cloverField="fedFile" trim="true" xpath="fedFile"/>
+  <Mapping cloverField="addendaType_1" trim="true" xpath="fileControl/addendaType"/>
+  <Mapping cloverField="batchControlType_1" trim="true" xpath="fileControl/batchControlType"/>
+  <Mapping cloverField="batchCount" trim="true" xpath="fileControl/batchCount"/>
+  <Mapping cloverField="batchHeaderType_1" trim="true" xpath="fileControl/batchHeaderType"/>
+  <Mapping cloverField="blockCount" trim="true" xpath="fileControl/blockCount"/>
+  <Mapping cloverField="entryAddendaCount" trim="true" xpath="fileControl/entryAddendaCount"/>
+  <Mapping cloverField="entryDetailType_1" trim="true" xpath="fileControl/entryDetailType"/>
+  <Mapping cloverField="entryHash" trim="true" xpath="fileControl/entryHash"/>
+  <Mapping cloverField="fileControlType_1" trim="true" xpath="fileControl/fileControlType"/>
+  <Mapping cloverField="fileHeaderType_1" trim="true" xpath="fileControl/fileHeaderType"/>
+  <Mapping cloverField="recordTypeCode_1" trim="true" xpath="fileControl/recordTypeCode"/>
+  <Mapping cloverField="reserved" trim="true" xpath="fileControl/reserved"/>
+  <Mapping cloverField="totCreditDollarAmt" trim="true" xpath="fileControl/totCreditDollarAmt"/>
+  <Mapping cloverField="totDebitDollarAmt" trim="true" xpath="fileControl/totDebitDollarAmt"/>
+  <Mapping cloverField="validType_1" trim="true" xpath="fileControl/validType"/>
+  <Mapping cloverField="addendaType" trim="true" xpath="fileHeader/addendaType"/>
+  <Mapping cloverField="batchControlType" trim="true" xpath="fileHeader/batchControlType"/>
+  <Mapping cloverField="batchHeaderType" trim="true" xpath="fileHeader/batchHeaderType"/>
+  <Mapping cloverField="blockingFactor" trim="true" xpath="fileHeader/blockingFactor"/>
+  <Mapping cloverField="entryDetailType" trim="true" xpath="fileHeader/entryDetailType"/>
+  <Mapping cloverField="fileControlType" trim="true" xpath="fileHeader/fileControlType"/>
+  <Mapping cloverField="fileCreationDate" trim="true" xpath="fileHeader/fileCreationDate"/>
+  <Mapping cloverField="fileCreationTime" trim="true" xpath="fileHeader/fileCreationTime"/>
+  <Mapping cloverField="fileHeaderType" trim="true" xpath="fileHeader/fileHeaderType"/>
+  <Mapping cloverField="fileIdModifier" trim="true" xpath="fileHeader/fileIdModifier"/>
+  <Mapping cloverField="formatCode" trim="true" xpath="fileHeader/formatCode"/>
+  <Mapping cloverField="immediateDestination" trim="true" xpath="fileHeader/immediateDestination"/>
+  <Mapping cloverField="immediateDestinationName" trim="true" xpath="fileHeader/immediateDestinationName"/>
+  <Mapping cloverField="immediateOrigin" trim="true" xpath="fileHeader/immediateOrigin"/>
+  <Mapping cloverField="immediateOriginName" trim="true" xpath="fileHeader/immediateOriginName"/>
+  <Mapping cloverField="priorityCode" trim="true" xpath="fileHeader/priorityCode"/>
+  <Mapping cloverField="recordSize" trim="true" xpath="fileHeader/recordSize"/>
+  <Mapping cloverField="recordTypeCode" trim="true" xpath="fileHeader/recordTypeCode"/>
+  <Mapping cloverField="referenceCode" trim="true" xpath="fileHeader/referenceCode"/>
+  <Mapping cloverField="validType" trim="true" xpath="fileHeader/validType"/>
+  <Context generatedKey="__parent_id" outPort="1" parentKey="__id" sequenceField="__id" xpath="batches">
+    <Mapping cloverField="addendaType" trim="true" xpath="batchControl/addendaType"/>
+    <Mapping cloverField="batchControlType" trim="true" xpath="batchControl/batchControlType"/>
+    <Mapping cloverField="batchHeaderType" trim="true" xpath="batchControl/batchHeaderType"/>
+    <Mapping cloverField="batchNumber" trim="true" xpath="batchControl/batchNumber"/>
+    <Mapping cloverField="companyId" trim="true" xpath="batchControl/companyId"/>
+    <Mapping cloverField="entryAddendaCount" trim="true" xpath="batchControl/entryAddendaCount"/>
+    <Mapping cloverField="entryDetailType" trim="true" xpath="batchControl/entryDetailType"/>
+    <Mapping cloverField="entryHash" trim="true" xpath="batchControl/entryHash"/>
+    <Mapping cloverField="fileControlType" trim="true" xpath="batchControl/fileControlType"/>
+    <Mapping cloverField="fileHeaderType" trim="true" xpath="batchControl/fileHeaderType"/>
+    <Mapping cloverField="messageAuthCode" trim="true" xpath="batchControl/messageAuthCode"/>
+    <Mapping cloverField="originatingDfiId" trim="true" xpath="batchControl/originatingDfiId"/>
+    <Mapping cloverField="recordTypeCode" trim="true" xpath="batchControl/recordTypeCode"/>
+    <Mapping cloverField="reserved" trim="true" xpath="batchControl/reserved"/>
+    <Mapping cloverField="serviceClassCode" trim="true" xpath="batchControl/serviceClassCode"/>
+    <Mapping cloverField="totCreditDollarAmt" trim="true" xpath="batchControl/totCreditDollarAmt"/>
+    <Mapping cloverField="totDebitDollarAmt" trim="true" xpath="batchControl/totDebitDollarAmt"/>
+    <Mapping cloverField="validType" trim="true" xpath="batchControl/validType"/>
+    <Mapping cloverField="addendaType_1" trim="true" xpath="batchHeader/addendaType"/>
+    <Mapping cloverField="batchControlType_1" trim="true" xpath="batchHeader/batchControlType"/>
+    <Mapping cloverField="batchHeaderType_1" trim="true" xpath="batchHeader/batchHeaderType"/>
+    <Mapping cloverField="batchNumber_1" trim="true" xpath="batchHeader/batchNumber"/>
+    <Mapping cloverField="companyDescriptiveDate" trim="true" xpath="batchHeader/companyDescriptiveDate"/>
+    <Mapping cloverField="companyDiscretionaryData" trim="true" xpath="batchHeader/companyDiscretionaryData"/>
+    <Mapping cloverField="companyEntryDescription" trim="true" xpath="batchHeader/companyEntryDescription"/>
+    <Mapping cloverField="companyId_1" trim="true" xpath="batchHeader/companyId"/>
+    <Mapping cloverField="companyName" trim="true" xpath="batchHeader/companyName"/>
+    <Mapping cloverField="effectiveEntryDate" trim="true" xpath="batchHeader/effectiveEntryDate"/>
+    <Mapping cloverField="entryDetailType_1" trim="true" xpath="batchHeader/entryDetailType"/>
+    <Mapping cloverField="fileControlType_1" trim="true" xpath="batchHeader/fileControlType"/>
+    <Mapping cloverField="fileHeaderType_1" trim="true" xpath="batchHeader/fileHeaderType"/>
+    <Mapping cloverField="originationDfiId" trim="true" xpath="batchHeader/originationDfiId"/>
+    <Mapping cloverField="originatorStatusCode" trim="true" xpath="batchHeader/originatorStatusCode"/>
+    <Mapping cloverField="recordTypeCode_1" trim="true" xpath="batchHeader/recordTypeCode"/>
+    <Mapping cloverField="serviceClassCode_1" trim="true" xpath="batchHeader/serviceClassCode"/>
+    <Mapping cloverField="settlementDate" trim="true" xpath="batchHeader/settlementDate"/>
+    <Mapping cloverField="standardEntryClassCode" trim="true" xpath="batchHeader/standardEntryClassCode"/>
+    <Mapping cloverField="validType_1" trim="true" xpath="batchHeader/validType"/>
+    <Context generatedKey="__parent_id" outPort="2" parentKey="__id" sequenceField="__id" xpath="entryRecs">
+      <Mapping cloverField="addendaRecordInd" trim="true" xpath="entryDetail/addendaRecordInd"/>
+      <Mapping cloverField="addendaType" trim="true" xpath="entryDetail/addendaType"/>
+      <Mapping cloverField="amount" trim="true" xpath="entryDetail/amount"/>
+      <Mapping cloverField="batchControlType" trim="true" xpath="entryDetail/batchControlType"/>
+      <Mapping cloverField="batchHeaderType" trim="true" xpath="entryDetail/batchHeaderType"/>
+      <Mapping cloverField="checkDigit" trim="true" xpath="entryDetail/checkDigit"/>
+      <Mapping cloverField="dfiAcctNbr" trim="true" xpath="entryDetail/dfiAcctNbr"/>
+      <Mapping cloverField="discretionaryData" trim="true" xpath="entryDetail/discretionaryData"/>
+      <Mapping cloverField="entryDetailType" trim="true" xpath="entryDetail/entryDetailType"/>
+      <Mapping cloverField="fileControlType" trim="true" xpath="entryDetail/fileControlType"/>
+      <Mapping cloverField="fileHeaderType" trim="true" xpath="entryDetail/fileHeaderType"/>
+      <Mapping cloverField="individualIdNbr" trim="true" xpath="entryDetail/individualIdNbr"/>
+      <Mapping cloverField="individualName" trim="true" xpath="entryDetail/individualName"/>
+      <Mapping cloverField="receivingDfiId" trim="true" xpath="entryDetail/receivingDfiId"/>
+      <Mapping cloverField="recordTypeCode" trim="true" xpath="entryDetail/recordTypeCode"/>
+      <Mapping cloverField="traceNumber" trim="true" xpath="entryDetail/traceNumber"/>
+      <Mapping cloverField="transactionCode" trim="true" xpath="entryDetail/transactionCode"/>
+      <Mapping cloverField="validType" trim="true" xpath="entryDetail/validType"/>
+      <Context generatedKey="__parent_id" outPort="3" parentKey="__id" sequenceField="__id" xpath="addendaRecs">
+        <Mapping cloverField="addendaSeqNbr" trim="true" xpath="addendaSeqNbr"/>
+        <Mapping cloverField="addendaType" trim="true" xpath="addendaType"/>
+        <Mapping cloverField="addendaTypeCode" trim="true" xpath="addendaTypeCode"/>
+        <Mapping cloverField="batchControlType" trim="true" xpath="batchControlType"/>
+        <Mapping cloverField="batchHeaderType" trim="true" xpath="batchHeaderType"/>
+        <Mapping cloverField="entryDetailSeqNbr" trim="true" xpath="entryDetailSeqNbr"/>
+        <Mapping cloverField="entryDetailType" trim="true" xpath="entryDetailType"/>
+        <Mapping cloverField="fileControlType" trim="true" xpath="fileControlType"/>
+        <Mapping cloverField="fileHeaderType" trim="true" xpath="fileHeaderType"/>
+        <Mapping cloverField="paymentRelatedInfo" trim="true" xpath="paymentRelatedInfo"/>
+        <Mapping cloverField="recordTypeCode" trim="true" xpath="recordTypeCode"/>
+        <Mapping cloverField="validType" trim="true" xpath="validType"/>
+      </Context>
+    </Context>
+  </Context>
+</Context>
+]]></attr>
+<attr name="_data_format"><![CDATA[MAP]]></attr>
+<attr name="__metadata"><![CDATA[true]]></attr>
+</Node>
+<Node cacheInMemory="true" charset="UTF-8" enabled="enabled" fileURL="dict:outputPayload" guiName="XML WRITER" guiX="900" guiY="20" id="EXT_XML_WRITER0" type="EXT_XML_WRITER">
+<attr name="mapping"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<object xmlns:clover="http://www.cloveretl.com/ns/xmlmapping" clover:inPort="0">
+  <errorMessages>$0.errorMessages</errorMessages>
+  <fedFile>$0.fedFile</fedFile>
+  <fileControl>
+    <addendaType>$0.addendaType</addendaType>
+    <batchControlType>$0.batchControlType</batchControlType>
+    <batchCount>$0.batchCount</batchCount>
+    <batchHeaderType>$0.batchHeaderType</batchHeaderType>
+    <blockCount>$0.blockCount</blockCount>
+    <entryAddendaCount>$0.entryAddendaCount</entryAddendaCount>
+    <entryDetailType>$0.entryDetailType</entryDetailType>
+    <entryHash>$0.entryHash</entryHash>
+    <fileControlType>$0.fileControlType</fileControlType>
+    <fileHeaderType>$0.fileHeaderType</fileHeaderType>
+    <recordTypeCode>$0.recordTypeCode</recordTypeCode>
+    <reserved>$0.reserved</reserved>
+    <totCreditDollarAmt>$0.totCreditDollarAmt</totCreditDollarAmt>
+    <totDebitDollarAmt>$0.totDebitDollarAmt</totDebitDollarAmt>
+    <validType>$0.validType</validType>
+  </fileControl>
+  <fileHeader>
+    <addendaType>$0.addendaType_1</addendaType>
+    <batchControlType>$0.batchControlType_1</batchControlType>
+    <batchHeaderType>$0.batchHeaderType_1</batchHeaderType>
+    <blockingFactor>$0.blockingFactor</blockingFactor>
+    <entryDetailType>$0.entryDetailType_1</entryDetailType>
+    <fileControlType>$0.fileControlType_1</fileControlType>
+    <fileCreationDate>$0.fileCreationDate</fileCreationDate>
+    <fileCreationTime>$0.fileCreationTime</fileCreationTime>
+    <fileHeaderType>$0.fileHeaderType_1</fileHeaderType>
+    <fileIdModifier>$0.fileIdModifier</fileIdModifier>
+    <formatCode>$0.formatCode</formatCode>
+    <immediateDestination>$0.immediateDestination</immediateDestination>
+    <immediateDestinationName>$0.immediateDestinationName</immediateDestinationName>
+    <immediateOrigin>$0.immediateOrigin</immediateOrigin>
+    <immediateOriginName>$0.immediateOriginName</immediateOriginName>
+    <priorityCode>$0.priorityCode</priorityCode>
+    <recordSize>$0.recordSize</recordSize>
+    <recordTypeCode>$0.recordTypeCode_1</recordTypeCode>
+    <referenceCode>$0.referenceCode</referenceCode>
+    <validType>$0.validType_1</validType>
+  </fileHeader>
+  <batches clover:inPort="1" clover:key="__parent_id" clover:parentKey="__id">
+    <batchControl>
+      <addendaType>$1.addendaType</addendaType>
+      <batchControlType>$1.batchControlType</batchControlType>
+      <batchHeaderType>$1.batchHeaderType</batchHeaderType>
+      <batchNumber>$1.batchNumber</batchNumber>
+      <companyId>$1.companyId</companyId>
+      <entryAddendaCount>$1.entryAddendaCount</entryAddendaCount>
+      <entryDetailType>$1.entryDetailType</entryDetailType>
+      <entryHash>$1.entryHash</entryHash>
+      <fileControlType>$1.fileControlType</fileControlType>
+      <fileHeaderType>$1.fileHeaderType</fileHeaderType>
+      <messageAuthCode>$1.messageAuthCode</messageAuthCode>
+      <originatingDfiId>$1.originatingDfiId</originatingDfiId>
+      <recordTypeCode>$1.recordTypeCode</recordTypeCode>
+      <reserved>$1.reserved</reserved>
+      <serviceClassCode>$1.serviceClassCode</serviceClassCode>
+      <totCreditDollarAmt>$1.totCreditDollarAmt</totCreditDollarAmt>
+      <totDebitDollarAmt>$1.totDebitDollarAmt</totDebitDollarAmt>
+      <validType>$1.validType</validType>
+    </batchControl>
+    <batchHeader>
+      <addendaType>$1.addendaType_1</addendaType>
+      <batchControlType>$1.batchControlType_1</batchControlType>
+      <batchHeaderType>$1.batchHeaderType_1</batchHeaderType>
+      <batchNumber>$1.batchNumber_1</batchNumber>
+      <companyDescriptiveDate>$1.companyDescriptiveDate</companyDescriptiveDate>
+      <companyDiscretionaryData>$1.companyDiscretionaryData</companyDiscretionaryData>
+      <companyEntryDescription>$1.companyEntryDescription</companyEntryDescription>
+      <companyId>$1.companyId_1</companyId>
+      <companyName>$1.companyName</companyName>
+      <effectiveEntryDate>$1.effectiveEntryDate</effectiveEntryDate>
+      <entryDetailType>$1.entryDetailType_1</entryDetailType>
+      <fileControlType>$1.fileControlType_1</fileControlType>
+      <fileHeaderType>$1.fileHeaderType_1</fileHeaderType>
+      <originationDfiId>$1.originationDfiId</originationDfiId>
+      <originatorStatusCode>$1.originatorStatusCode</originatorStatusCode>
+      <recordTypeCode>$1.recordTypeCode_1</recordTypeCode>
+      <serviceClassCode>$1.serviceClassCode_1</serviceClassCode>
+      <settlementDate>$1.settlementDate</settlementDate>
+      <standardEntryClassCode>$1.standardEntryClassCode</standardEntryClassCode>
+      <validType>$1.validType_1</validType>
+    </batchHeader>
+    <entryRecs clover:inPort="2" clover:key="__parent_id" clover:parentKey="__id">
+      <entryDetail>
+        <addendaRecordInd>$2.addendaRecordInd</addendaRecordInd>
+        <addendaType>$2.addendaType</addendaType>
+        <amount>$2.amount</amount>
+        <batchControlType>$2.batchControlType</batchControlType>
+        <batchHeaderType>$2.batchHeaderType</batchHeaderType>
+        <checkDigit>$2.checkDigit</checkDigit>
+        <dfiAcctNbr>$2.dfiAcctNbr</dfiAcctNbr>
+        <discretionaryData>$2.discretionaryData</discretionaryData>
+        <entryDetailType>$2.entryDetailType</entryDetailType>
+        <fileControlType>$2.fileControlType</fileControlType>
+        <fileHeaderType>$2.fileHeaderType</fileHeaderType>
+        <individualIdNbr>$2.individualIdNbr</individualIdNbr>
+        <individualName>$2.individualName</individualName>
+        <receivingDfiId>$2.receivingDfiId</receivingDfiId>
+        <recordTypeCode>$2.recordTypeCode</recordTypeCode>
+        <traceNumber>$2.traceNumber</traceNumber>
+        <transactionCode>$2.transactionCode</transactionCode>
+        <validType>$2.validType</validType>
+      </entryDetail>
+      <addendaRecs clover:inPort="3" clover:key="__parent_id" clover:parentKey="__id">
+        <addendaSeqNbr>$3.addendaSeqNbr</addendaSeqNbr>
+        <addendaType>$3.addendaType</addendaType>
+        <addendaTypeCode>$3.addendaTypeCode</addendaTypeCode>
+        <batchControlType>$3.batchControlType</batchControlType>
+        <batchHeaderType>$3.batchHeaderType</batchHeaderType>
+        <entryDetailSeqNbr>$3.entryDetailSeqNbr</entryDetailSeqNbr>
+        <entryDetailType>$3.entryDetailType</entryDetailType>
+        <fileControlType>$3.fileControlType</fileControlType>
+        <fileHeaderType>$3.fileHeaderType</fileHeaderType>
+        <paymentRelatedInfo>$3.paymentRelatedInfo</paymentRelatedInfo>
+        <recordTypeCode>$3.recordTypeCode</recordTypeCode>
+        <validType>$3.validType</validType>
+      </addendaRecs>
+    </entryRecs>
+  </batches>
+</object>]]></attr>
+<attr name="_data_format"><![CDATA[XML]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'addendaRecs' -&gt; 'addendaRecs'" guiX="460" guiY="320" id="FOREACH_ADDENDA_RECS_ADDENDA_RECS" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+//START -> DO NOT REMOVE
+$out.0.__id = $in.0.__id;
+$out.0.__parent_id = $in.0.__parent_id;
+//END -> DO NOT REMOVE
+$out.0.addendaSeqNbr = $in.0.addendaSeqNbr;
+$out.0.addendaType = $in.0.addendaType;
+$out.0.addendaTypeCode = $in.0.addendaTypeCode;
+$out.0.batchControlType = $in.0.batchControlType;
+$out.0.batchHeaderType = $in.0.batchHeaderType;
+$out.0.entryDetailSeqNbr = $in.0.entryDetailSeqNbr;
+$out.0.entryDetailType = $in.0.entryDetailType;
+$out.0.fileControlType = $in.0.fileControlType;
+$out.0.fileHeaderType = $in.0.fileHeaderType;
+$out.0.paymentRelatedInfo = $in.0.paymentRelatedInfo;
+$out.0.recordTypeCode = $in.0.recordTypeCode;
+$out.0.validType = $in.0.validType;
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'batches' -&gt; 'batches'" guiX="460" guiY="120" id="FOREACH_BATCHES_BATCHES" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+//START -> DO NOT REMOVE
+$out.0.__id = $in.0.__id;
+$out.0.__parent_id = $in.0.__parent_id;
+//END -> DO NOT REMOVE
+$out.0.addendaType = $in.0.addendaType;
+$out.0.batchControlType = $in.0.batchControlType;
+$out.0.batchHeaderType = $in.0.batchHeaderType;
+$out.0.batchNumber = $in.0.batchNumber;
+$out.0.companyId = $in.0.companyId;
+$out.0.entryAddendaCount = $in.0.entryAddendaCount;
+$out.0.entryDetailType = $in.0.entryDetailType;
+$out.0.entryHash = $in.0.entryHash;
+$out.0.fileControlType = $in.0.fileControlType;
+$out.0.fileHeaderType = $in.0.fileHeaderType;
+$out.0.messageAuthCode = $in.0.messageAuthCode;
+$out.0.originatingDfiId = $in.0.originatingDfiId;
+$out.0.recordTypeCode = $in.0.recordTypeCode;
+$out.0.reserved = $in.0.reserved;
+$out.0.serviceClassCode = $in.0.serviceClassCode;
+$out.0.totCreditDollarAmt = $in.0.totCreditDollarAmt;
+$out.0.totDebitDollarAmt = $in.0.totDebitDollarAmt;
+$out.0.validType = $in.0.validType;
+$out.0.addendaType_1 = $in.0.addendaType_1;
+$out.0.batchControlType_1 = $in.0.batchControlType_1;
+$out.0.batchHeaderType_1 = $in.0.batchHeaderType_1;
+$out.0.batchNumber_1 = $in.0.batchNumber_1;
+$out.0.companyDescriptiveDate = $in.0.companyDescriptiveDate;
+$out.0.companyDiscretionaryData = $in.0.companyDiscretionaryData;
+$out.0.companyEntryDescription = $in.0.companyEntryDescription;
+$out.0.companyId_1 = $in.0.companyId_1;
+$out.0.companyName = $in.0.companyName;
+$out.0.effectiveEntryDate = $in.0.effectiveEntryDate;
+$out.0.entryDetailType_1 = $in.0.entryDetailType_1;
+$out.0.fileControlType_1 = $in.0.fileControlType_1;
+$out.0.fileHeaderType_1 = $in.0.fileHeaderType_1;
+$out.0.originationDfiId = $in.0.originationDfiId;
+$out.0.originatorStatusCode = $in.0.originatorStatusCode;
+$out.0.recordTypeCode_1 = $in.0.recordTypeCode_1;
+$out.0.serviceClassCode_1 = $in.0.serviceClassCode_1;
+$out.0.settlementDate = $in.0.settlementDate;
+$out.0.standardEntryClassCode = $in.0.standardEntryClassCode;
+$out.0.validType_1 = $in.0.validType_1;
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'entryRecs' -&gt; 'entryRecs'" guiX="460" guiY="220" id="FOREACH_ENTRY_RECS_ENTRY_RECS" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+//START -> DO NOT REMOVE
+$out.0.__id = $in.0.__id;
+$out.0.__parent_id = $in.0.__parent_id;
+//END -> DO NOT REMOVE
+$out.0.addendaRecordInd = $in.0.addendaRecordInd;
+$out.0.addendaType = $in.0.addendaType;
+$out.0.amount = $in.0.amount;
+$out.0.batchControlType = $in.0.batchControlType;
+$out.0.batchHeaderType = $in.0.batchHeaderType;
+$out.0.checkDigit = $in.0.checkDigit;
+$out.0.dfiAcctNbr = $in.0.dfiAcctNbr;
+$out.0.discretionaryData = $in.0.discretionaryData;
+$out.0.entryDetailType = $in.0.entryDetailType;
+$out.0.fileControlType = $in.0.fileControlType;
+$out.0.fileHeaderType = $in.0.fileHeaderType;
+$out.0.individualIdNbr = $in.0.individualIdNbr;
+$out.0.individualName = $in.0.individualName;
+$out.0.receivingDfiId = $in.0.receivingDfiId;
+$out.0.recordTypeCode = $in.0.recordTypeCode;
+$out.0.traceNumber = $in.0.traceNumber;
+$out.0.transactionCode = $in.0.transactionCode;
+$out.0.validType = $in.0.validType;
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Node enabled="enabled" guiName="Foreach 'object' -&gt; 'object'" guiX="460" guiY="20" id="FOREACH_OBJECT_OBJECT" type="REFORMAT">
+<attr name="transform"><![CDATA[//#CTL2
+
+// Transforms input record into output record.
+function integer transform() {
+//START -> DO NOT REMOVE
+$out.0.__id = $in.0.__id;
+//END -> DO NOT REMOVE
+$out.0.errorMessages = $in.0.errorMessages;
+$out.0.fedFile = $in.0.fedFile;
+$out.0.addendaType_1 = $in.0.addendaType_1;
+$out.0.batchControlType_1 = $in.0.batchControlType_1;
+$out.0.batchCount = $in.0.batchCount;
+$out.0.batchHeaderType_1 = $in.0.batchHeaderType_1;
+$out.0.blockCount = $in.0.blockCount;
+$out.0.entryAddendaCount = $in.0.entryAddendaCount;
+$out.0.entryDetailType_1 = $in.0.entryDetailType_1;
+$out.0.entryHash = $in.0.entryHash;
+$out.0.fileControlType_1 = $in.0.fileControlType_1;
+$out.0.fileHeaderType_1 = $in.0.fileHeaderType_1;
+$out.0.recordTypeCode_1 = $in.0.recordTypeCode_1;
+$out.0.reserved = $in.0.reserved;
+$out.0.totCreditDollarAmt = $in.0.totCreditDollarAmt;
+$out.0.totDebitDollarAmt = $in.0.totDebitDollarAmt;
+$out.0.validType_1 = $in.0.validType_1;
+$out.0.addendaType = $in.0.addendaType;
+$out.0.batchControlType = $in.0.batchControlType;
+$out.0.batchHeaderType = $in.0.batchHeaderType;
+$out.0.blockingFactor = $in.0.blockingFactor;
+$out.0.entryDetailType = $in.0.entryDetailType;
+$out.0.fileControlType = $in.0.fileControlType;
+$out.0.fileCreationDate = $in.0.fileCreationDate;
+$out.0.fileCreationTime = $in.0.fileCreationTime;
+$out.0.fileHeaderType = $in.0.fileHeaderType;
+$out.0.fileIdModifier = $in.0.fileIdModifier;
+$out.0.formatCode = $in.0.formatCode;
+$out.0.immediateDestination = $in.0.immediateDestination;
+$out.0.immediateDestinationName = $in.0.immediateDestinationName;
+$out.0.immediateOrigin = $in.0.immediateOrigin;
+$out.0.immediateOriginName = $in.0.immediateOriginName;
+$out.0.priorityCode = $in.0.priorityCode;
+$out.0.recordSize = $in.0.recordSize;
+$out.0.recordTypeCode = $in.0.recordTypeCode;
+$out.0.referenceCode = $in.0.referenceCode;
+$out.0.validType = $in.0.validType;
+	return ALL;
+}
+
+// Called during component initialization.
+// function boolean init() {}
+
+// Called during each graph run before the transform is executed. May be used to allocate and initialize resources
+// required by the transform. All resources allocated within this method should be released
+// by the postExecute() method.
+// function void preExecute() {}
+
+// Called only if transform() throws an exception.
+// function integer transformOnError(string errorMessage, string stackTrace) {}
+
+// Called during each graph run after the entire transform was executed. Should be used to free any resources
+// allocated within the preExecute() method.
+// function void postExecute() {}
+
+// Called to return a user-defined error message when an error occurs.
+// function string getMessage() {}
+]]></attr>
+</Node>
+<Edge debugMode="true" fromNode="BEAN_READER0:0" guiBendpoints="" id="Edge0" inPort="Port 0 (in)" metadata="f700f599-17d7-483a-b184-f2580bc71be0" outPort="Port 0 (out)" toNode="FOREACH_OBJECT_OBJECT:0"/>
+<Edge debugMode="true" fromNode="BEAN_READER0:1" guiBendpoints="" id="Edge2" inPort="Port 0 (in)" metadata="62f13048-9815-48d2-977b-3dd953ea6aa0" outPort="Port 1 (out)" toNode="FOREACH_BATCHES_BATCHES:0"/>
+<Edge debugMode="true" fromNode="BEAN_READER0:2" guiBendpoints="" id="Edge4" inPort="Port 0 (in)" metadata="07b4a989-20af-4c52-8be8-7d0412b1e99d" outPort="Port 2 (out)" toNode="FOREACH_ENTRY_RECS_ENTRY_RECS:0"/>
+<Edge debugMode="true" fromNode="BEAN_READER0:3" guiBendpoints="" id="Edge6" inPort="Port 0 (in)" metadata="23431679-4072-4a30-9653-231703f07c0d" outPort="Port 3 (out)" toNode="FOREACH_ADDENDA_RECS_ADDENDA_RECS:0"/>
+<Edge debugMode="true" fromNode="FOREACH_ADDENDA_RECS_ADDENDA_RECS:0" guiBendpoints="" id="Edge7" inPort="Port 3 (in)" metadata="2cf274eb-38f6-4394-9693-dd1509413ba6" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:3"/>
+<Edge debugMode="true" fromNode="FOREACH_BATCHES_BATCHES:0" guiBendpoints="" id="Edge3" inPort="Port 1 (in)" metadata="5776d6b1-7431-4864-aa7f-7fecd60ed21f" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:1"/>
+<Edge debugMode="true" fromNode="FOREACH_ENTRY_RECS_ENTRY_RECS:0" guiBendpoints="" id="Edge5" inPort="Port 2 (in)" metadata="78c87931-fce8-4079-8c87-0a4188dd6a26" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:2"/>
+<Edge debugMode="true" fromNode="FOREACH_OBJECT_OBJECT:0" guiBendpoints="" id="Edge1" inPort="Port 0 (in)" metadata="f2f664d2-8196-4086-8e01-d6d6a032a7b7" outPort="Port 0 (out)" toNode="EXT_XML_WRITER0:0"/>
+</Phase>
+</Graph>

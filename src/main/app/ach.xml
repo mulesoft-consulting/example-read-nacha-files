@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:jdbc-ee="http://www.mulesoft.org/schema/mule/ee/jdbc"
+	xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:data-mapper="http://www.mulesoft.org/schema/mule/ee/data-mapper" xmlns:db="http://www.mulesoft.org/schema/mule/db" xmlns:file="http://www.mulesoft.org/schema/mule/file" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" version="EE-3.6.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/jdbc http://www.mulesoft.org/schema/mule/ee/jdbc/current/mule-jdbc-ee.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/file/current/mule-file.xsd
+http://www.mulesoft.org/schema/mule/ee/data-mapper http://www.mulesoft.org/schema/mule/ee/data-mapper/current/mule-data-mapper.xsd
+http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/current/mule-db.xsd">
+    
+	<data-mapper:config name="pojo_to_map" transformationGraphPath="pojo_to_map.grf" doc:name="pojo_to_map"/>
+    <data-mapper:config name="object_to_xml" transformationGraphPath="object_to_xml.grf" doc:name="object_to_xml"/>
+    <data-mapper:config name="object_to_xml_1" transformationGraphPath="object_to_xml_1.grf" doc:name="object_to_xml_1"/>
+
+    <flow name="demo-nacha-filesFlow1" doc:name="demo-nacha-filesFlow1">
+        <file:inbound-endpoint responseTimeout="10000" doc:name="Read from downloaded" 
+        	moveToDirectory="${nachafiles.path.out}" path="${nachafiles.path.in}"/>
+        <byte-array-to-string-transformer doc:name="Byte Array to String"/>
+        <custom-transformer class="com.mulesoft.se.demos.nacha.NachaToJavaTransformer" doc:name="NACHA Transformer"/>
+        <data-mapper:transform config-ref="pojo_to_map" doc:name="Nacha to Maps"/>
+        <logger message="received message: destination : #[payload['fileHeader']['immediateDestination']] - #[payload['fileHeader']['immediateDestinationName']]" level="INFO" doc:name="Log destination"/>
+        <choice doc:name="Choice">
+            <when expression="payload['fileHeader']['immediateDestination']==' 234567890'">
+            	<processor-chain doc:name="Provider 1">
+                    <data-mapper:transform doc:name="object To XML" config-ref="object_to_xml">
+                        <data-mapper:input-arguments>
+                            <data-mapper:input-argument key="zipCode">#[20852]</data-mapper:input-argument>
+                        </data-mapper:input-arguments>
+                    </data-mapper:transform>
+                    <object-to-string-transformer doc:name="Object to String"/>
+                    <logger message="provider 1: #[payload]" level="INFO" doc:name="response"/>
+                </processor-chain>
+            </when>
+            <when expression="payload['fileHeader']['immediateDestination']==' 234567891'">
+				<logger message="provider 2: #[payload]" level="INFO" doc:name="response"/>
+            </when>
+            <when expression="payload['fileHeader']['immediateDestination']==' 234567892'">
+                <processor-chain doc:name="Provider 3">
+                    <data-mapper:transform doc:name="object To XML" config-ref="object_to_xml_1"/>
+					<logger message="provider 3: #[payload]" level="INFO" doc:name="response"/>
+                </processor-chain>
+            </when>
+            <otherwise>
+            	<logger message="otherwise: #[payload]" level="INFO" doc:name="response"/>
+            </otherwise>
+        </choice>
+    </flow>
+
+</mule>
